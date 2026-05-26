@@ -1,141 +1,145 @@
 # Smart Surveillance AI
 
-An intelligent real-time surveillance system powered by Artificial Intelligence and Computer Vision.
-
-This project combines facial recognition, motion detection, person tracking and intelligent monitoring to create a smart surveillance platform capable of analyzing live video streams in real time.
-
----
-
-# Project Vision
-
-Traditional surveillance systems only record video footage.
-
-Smart Surveillance AI goes further by introducing artificial intelligence capabilities that allow the system to:
-
-- Detect human presence automatically
-- Recognize known individuals
-- Identify unknown persons
-- Monitor suspicious movement
-- Generate surveillance logs
-- Send intelligent alerts
-
-The goal of this project is to build an intelligent surveillance assistant capable of understanding and analyzing live video activity instead of simply recording it.
+🇫🇷 Version française  
+🇬🇧 English version available in [README_EN.md](README_EN.md)
 
 ---
 
-# Why This Project Matters
+# Présentation du Projet
 
-Modern security systems increasingly rely on Artificial Intelligence for:
+Smart Surveillance AI est une plateforme de surveillance intelligente en temps réel basée sur l’Intelligence Artificielle et la Vision par Ordinateur.
 
-- Smart cities
-- Intelligent buildings
-- Access control systems
-- Industrial monitoring
-- Automated security
-- Real-time threat detection
+Le projet combine plusieurs technologies d’analyse vidéo afin de créer un système capable de :
 
-This project is designed as both:
+- détecter des personnes en temps réel
+- reconnaître des visages connus
+- identifier des individus inconnus
+- détecter des mouvements suspects
+- enregistrer les événements de surveillance
+- envoyer des alertes intelligentes
 
-- a practical AI engineering project
-- a research-oriented computer vision platform
-
-that can evolve into advanced intelligent surveillance research.
+Contrairement aux systèmes de surveillance classiques qui se limitent à enregistrer des vidéos, cette plateforme cherche à analyser et comprendre automatiquement les flux vidéo en direct grâce à l’intelligence artificielle.
 
 ---
 
-# Main Features
+# Objectif du Projet
 
-## Real-Time Face Recognition
+L’objectif principal de ce projet est de développer une plateforme de surveillance intelligente capable d’assister automatiquement les systèmes de sécurité modernes.
 
-The system can recognize registered individuals using facial recognition algorithms.
+Le projet possède également une dimension recherche et expérimentation dans les domaines suivants :
 
-When a known face is detected:
-- the identity is displayed
-- confidence score is calculated
-- access events can be logged
+- Intelligence Artificielle
+- Vision par Ordinateur
+- Analyse Vidéo Temps Réel
+- Deep Learning
+- Systèmes de Surveillance Intelligents
+- Smart Monitoring Systems
 
-Unknown individuals are automatically labeled as unknown.
-
----
-
-## Motion Detection
-
-The platform continuously analyzes camera activity to detect movement inside the monitored area.
-
-This helps reduce unnecessary processing and improves surveillance efficiency.
+Ce système est conçu pour évoluer progressivement vers une plateforme complète de surveillance intelligente orientée recherche et applications industrielles.
 
 ---
 
-## Person Detection
+# Fonctionnalités Actuelles
 
-The system can identify human presence inside the video stream in real time.
+## Reconnaissance Faciale Temps Réel
 
-This allows future integration of:
-- human tracking
-- crowd analysis
-- behavior analysis
-- anomaly detection
+Le système est capable de reconnaître des individus enregistrés à partir d’une caméra en temps réel.
 
----
+Lorsqu’un visage connu est détecté :
+- l’identité est affichée
+- un score de confiance est calculé
+- l’événement peut être enregistré dans les logs
 
-## Intelligent Logging System
-
-Surveillance events are automatically stored in logs, including:
-- timestamps
-- detection events
-- recognition events
-- alerts
-
-This provides traceability and monitoring history.
+Les personnes inconnues sont automatiquement identifiées comme inconnues.
 
 ---
 
-## Email Alert Service
+## Détection de Mouvement
 
-The platform includes an alert system capable of sending notifications when suspicious activity or unknown persons are detected.
+Le système analyse les mouvements présents dans le flux vidéo afin de détecter une activité dans la zone surveillée.
+
+Cette fonctionnalité permet :
+- d’optimiser le traitement vidéo
+- de réduire les traitements inutiles
+- d’améliorer l’efficacité globale du système
 
 ---
 
-# System Workflow
+## Détection de Personnes
 
-The surveillance pipeline follows several stages:
+La plateforme détecte automatiquement la présence humaine dans le flux caméra.
+
+Cette fonctionnalité servira également de base pour :
+- le tracking intelligent
+- l’analyse comportementale
+- la détection d’intrusion
+- l’analyse de foule
+
+---
+
+## Système de Logs
+
+Tous les événements importants sont enregistrés automatiquement :
+
+- date et heure
+- détections
+- reconnaissances faciales
+- alertes
+- événements système
+
+Le système permet ainsi de conserver un historique complet des activités détectées.
+
+---
+
+## Système d’Alerte
+
+La plateforme intègre un système d’envoi d’alertes capable de notifier certains événements importants comme :
+
+- détection d’un inconnu
+- activité suspecte
+- détection particulière
+
+---
+
+# Architecture du Système
+
+Le pipeline principal du système fonctionne de la manière suivante :
 
 ```text
-Camera Stream
+Flux Caméra
       ↓
-Motion Detection
+Détection de Mouvement
       ↓
-Person Detection
+Détection de Personnes
       ↓
-Face Detection
+Détection de Visages
       ↓
-Face Recognition
+Reconnaissance Faciale
       ↓
-Event Logging
-      ↓
-Alert System
+Logs + Alertes
 ```
 
-Each module works independently in a modular architecture, making the platform scalable and extensible.
+Chaque composant fonctionne dans une architecture modulaire permettant :
+- l’évolution du projet
+- l’ajout de nouvelles fonctionnalités
+- l’intégration de nouveaux modèles IA
 
 ---
 
-# Technologies Used
+# Technologies Utilisées
 
-This project combines several AI and software engineering technologies:
-
-| Technology | Purpose |
+| Technologie | Utilisation |
 |---|---|
-| Python | Core programming language |
-| OpenCV | Real-time video processing |
-| face_recognition | Facial recognition |
-| Dlib | Face embeddings and detection |
-| TensorFlow | AI / Deep Learning support |
-| NumPy | Numerical processing |
+| Python | Langage principal |
+| OpenCV | Traitement vidéo temps réel |
+| face_recognition | Reconnaissance faciale |
+| Dlib | Encodage et détection faciale |
+| TensorFlow | Support IA / Deep Learning |
+| NumPy | Calcul numérique |
 
 ---
 
-# Project Structure
+# Structure du Projet
 
 ```text
 smart-surveillance-ai/
@@ -157,76 +161,116 @@ smart-surveillance-ai/
 ├── models/
 ├── logs/
 ├── data/
+├── requirements.txt
 └── README.md
 ```
 
 ---
 
-# Current Status
+# Installation
 
-Current implemented capabilities:
+## Cloner le projet
 
-- Real-time surveillance
-- Face recognition
-- Motion detection
-- Person detection
-- Logging system
-- Email alerts
-- Modular architecture
+```bash
+git clone https://github.com/Mobeko14/smart-surveillance-ai.git
+cd smart-surveillance-ai
+```
 
 ---
 
-# Future Improvements
+## Créer un environnement virtuel
 
-The project is actively evolving toward a more advanced AI surveillance platform.
+```bash
+python -m venv .venv
+```
 
-Planned future improvements include:
+### Windows
 
-- YOLOv8 integration
-- DeepSORT object tracking
-- Multi-camera support
-- PostgreSQL database
-- FastAPI web dashboard
-- Docker deployment
-- Grafana monitoring
-- Behavioral analysis
-- Intrusion detection
-- Edge AI optimization
+```bash
+.venv\Scripts\activate
+```
 
 ---
 
-# Research Perspective
+## Installer les dépendances
 
-This project is also intended for experimentation and research in:
-
-- Computer Vision
-- Intelligent Surveillance Systems
-- Real-Time Video Analytics
-- Deep Learning
-- Smart Security Systems
-- AI-powered Monitoring Platforms
-
-The long-term objective is to transform this platform into a scalable intelligent surveillance ecosystem suitable for research and industrial applications.
+```bash
+pip install -r requirements.txt
+```
 
 ---
 
-# Screenshots
+# Lancer le Projet
 
-Real-time facial recognition and tracking interface:
-
-(Add screenshots here)
+```bash
+python src/main.py
+```
 
 ---
 
-# Author
+# État Actuel du Projet
+
+Fonctionnalités déjà implémentées :
+
+- Surveillance temps réel
+- Reconnaissance faciale
+- Détection de mouvement
+- Détection de personnes
+- Système de logs
+- Alertes intelligentes
+- Architecture modulaire
+
+---
+
+# Améliorations Futures
+
+Le projet continuera d’évoluer avec plusieurs améliorations prévues :
+
+- Intégration de YOLOv8
+- Tracking intelligent avec DeepSORT
+- Base de données PostgreSQL
+- Dashboard web FastAPI
+- Déploiement Docker
+- Monitoring Grafana
+- Support multi-caméras
+- Analyse comportementale
+- Détection d’intrusion
+- Optimisation Edge AI
+
+---
+
+# Perspective Recherche
+
+Ce projet est également conçu comme une plateforme d’expérimentation et de recherche autour de :
+
+- l’analyse vidéo intelligente
+- la surveillance automatisée
+- les systèmes intelligents temps réel
+- les architectures IA distribuées
+- la vision par ordinateur
+
+L’objectif à long terme est de transformer cette plateforme en véritable système de surveillance intelligent capable de fonctionner dans des environnements réels.
+
+---
+
+# Captures d’Écran
+
+Interface actuelle du système de reconnaissance faciale et tracking en temps réel :
+
+(Ajouter ici les screenshots du projet)
+
+---
+
+# Auteur
 
 Edouard Junior Mobeko
 
-Master's Student in Computer Science  
-Artificial Intelligence • Computer Vision • Smart Systems • DevOps
+Étudiant en Master 2 Informatique — Parcours Expert en Informatique et Systèmes d’Information orienté Cloud Computing  
+
+Intelligence Artificielle • Vision par Ordinateur • Systèmes Intelligents • DevOps
 
 ---
 
-# License
+# Licence
 
 MIT License
