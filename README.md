@@ -259,7 +259,7 @@ L’objectif à long terme est de transformer cette plateforme en véritable sys
 
 Le système reconnaît automatiquement les utilisateurs enregistrés et affiche leur identité avec un score de confiance.
 
-![Reconnaissance réussie](screenshots/face_recognition_success.png) 
+![Reconnaissance réussie](screenshots/success.png)
 
 ---
 
@@ -267,7 +267,7 @@ Le système reconnaît automatiquement les utilisateurs enregistrés et affiche 
 
 Les personnes non enregistrées sont automatiquement détectées comme inconnues afin de renforcer la sécurité et la surveillance intelligente.
 
-![Détection inconnu](screenshots/unknown_person_detection.png)
+![Détection inconnu](screenshots/unknown.png)
 
 ---
 
