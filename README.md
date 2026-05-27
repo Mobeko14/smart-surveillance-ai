@@ -253,21 +253,22 @@ L’objectif à long terme est de transformer cette plateforme en véritable sys
 
 ---
 
-# Captures d’Écran
+# 📷 Captures d’Écran
 
-## Reconnaissance d’un Utilisateur Autorisé
+## ✅ Reconnaissance d’un Utilisateur Autorisé
 
 Le système reconnaît automatiquement les utilisateurs enregistrés et affiche leur identité avec un score de confiance.
 
-![Reconnaissance réussie](screenshots/success.png)
+![Reconnaissance réussie](photos/success.png)
 
 ---
 
-## Détection d’un Individu Inconnu
+## 🚨 Détection d’un Individu Inconnu
 
 Les personnes non enregistrées sont automatiquement détectées comme inconnues afin de renforcer la sécurité et la surveillance intelligente.
 
-![Détection inconnu](screenshots/unknown.png)
+![Détection inconnu](photos/unknown.png)
+
 
 ---
 
