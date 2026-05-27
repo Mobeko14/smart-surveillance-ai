@@ -101,7 +101,7 @@ La plateforme intègre un système d’envoi d’alertes capable de notifier cer
 
 ---
 
-# Architecture du Système
+# 🏗️ Architecture du Système
 
 Le pipeline principal du système fonctionne de la manière suivante :
 
@@ -123,6 +123,12 @@ Chaque composant fonctionne dans une architecture modulaire permettant :
 - l’évolution du projet
 - l’ajout de nouvelles fonctionnalités
 - l’intégration de nouveaux modèles IA
+
+---
+
+## 📊 Diagramme d’Architecture
+
+![Architecture Smart Surveillance](screenshots/architecture.png)
 
 ---
 
@@ -268,7 +274,6 @@ Le système reconnaît automatiquement les utilisateurs enregistrés et affiche 
 Les personnes non enregistrées sont automatiquement détectées comme inconnues afin de renforcer la sécurité et la surveillance intelligente.
 
 ![Détection inconnu](screenshots/unknown.png)
-
 
 ---
 
