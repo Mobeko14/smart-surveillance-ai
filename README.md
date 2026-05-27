@@ -255,9 +255,19 @@ L’objectif à long terme est de transformer cette plateforme en véritable sys
 
 # Captures d’Écran
 
-Interface actuelle du système de reconnaissance faciale et tracking en temps réel :
+## Reconnaissance d’un Utilisateur Autorisé
 
-(Ajouter ici les screenshots du projet)
+Le système reconnaît automatiquement les utilisateurs enregistrés et affiche leur identité avec un score de confiance.
+
+![Reconnaissance réussie](screenshots/face_recognition_success.png) 
+
+---
+
+## Détection d’un Individu Inconnu
+
+Les personnes non enregistrées sont automatiquement détectées comme inconnues afin de renforcer la sécurité et la surveillance intelligente.
+
+![Détection inconnu](screenshots/unknown_person_detection.png)
 
 ---
 
